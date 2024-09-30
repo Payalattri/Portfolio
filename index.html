@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c825447bfa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a ></li>
+                    <li><a href="#about">About</a ></li>
+                    <li><a href="#services">Services</a ></li>
+                    <li><a href="#portfolio">Portfolio</a ></li>
+                    <li><a href="#contact">Contact</a ></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FULL STACK WEB DEVELOPER</p>
+                <h1>Hi, I'm <span>Payal</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------------about --------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+
+                <div class="about-col-2">
+                     <h1 class="sub-title">About Me</h1>
+                     <p>A full stack web developer is a versatile and skilled professional adept at handling both front-end and back-end development tasks in the creation of web applications. On the front-end, they utilize languages and frameworks like HTML, CSS, JavaScript, and React to design and implement user interfaces that are visually appealing and user-friendly. Simultaneously, they manage back-end development using languages such as Python, Java, or Node.js, along with databases like MySQL or MongoDB, to ensure robust server-side functionality, data management, and seamless integration with the front-end. This dual expertise allows full stack developers to oversee the entire development process, from conceptual design to deployment, ensuring cohesive and high-performing web applications. Their broad skill set and ability to work across the entire technology stack make them invaluable assets to development teams, capable of troubleshooting issues and optimizing performance across both client and server sides.</p>
+                    
+                     <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web  </li>
+                            <li><span>Web Development</span><br>Building & Developing Web Sites</li>
+                            
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>3 July 2024 - 16 August 2024 </span> <br> Full Stack MERN Web Developer<br>Infotechmon Private Limited Sec 58 Mohali Punjab</li>
+                            
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2025 </span><br>Bachelor of Computer Applications<br>8.62cgpa upto(sem4th)<br>Maharishi Markandeshwar (Deemed to be University)</li>
+                            <li><span>March 2022</span><br>Higher Secondary School Certificate<br>90%<br>H.B.S.E. Board</li>
+                            <li><span>March 2020</span><br>Secondary School Certificate <br>91.4%<br>H.B.S.E. Board</li>
+                        </ul>
+                     </div>
+
+
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------services --------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div class="services-list">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web designer</h2>
+                        <p>As a skilled web designer, I specialize in creating visually stunning and user-friendly websites that captivate and engage audiences. With a keen eye for detail and a deep understanding of design principles, I craft layouts that are both aesthetically pleasing and intuitively navigable. By blending creativity with a strategic approach, I deliver websites that not only look impressive but also effectively communicate the brand's message and enhance user experience.</p>
+                        <a href="https://github.com/Payalattri">learn more</a>
+                    </div>
+                    <div class="services-list">
+                        <i class="fa-solid fa-display"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>As a dedicated UI/UX designer passionate about creating intuitive and engaging digital experiences. With a strong background in user-centered design, I focus on understanding user needs and behaviors to craft visually appealing interfaces that enhance usability. My approach combines research, wireframing, and prototyping, allowing me to develop solutions that resonate with users while meeting business goals. I thrive in collaborative environments, working alongside developers and stakeholders to bring innovative ideas to life. Committed to continuous learning, I stay updated with design trends to ensure my work is both modern and effective. Let's create something exceptional together!</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div class="services-list">
+                        <i class="fa-solid fa-apple-whole"></i>
+                        <h2>Web Developer</h2>
+                        <p> As a passionate web developer with a strong focus on creating dynamic and responsive websites. With expertise in technologies like HTML, CSS, JavaScript, and backend frameworks, I enjoy transforming ideas into functional web applications. My approach emphasizes clean code, user-centered design, and seamless performance. I thrive in collaborative environments, working closely with designers and stakeholders to deliver projects that meet both user needs and business objectives. Committed to continuous learning, I stay updated with the latest industry trends and technologies to ensure my work is innovative and effective. Let’s build something amazing together!</p>
+                        <a href="https://github.com/Payalattri">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!---------------------------- Portfolio  --------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>3D PROFILE CARD</h3>
+                        <p>...................</p>
+                        <a href="https://github.com/Payalattri/3D-PROFILE-CARD"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>PROFILE CARD</h3>
+                        <p>...................</p>
+                        <a href="https://github.com/Payalattri/Profile-card"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Image Search Engine</h3>
+                        <p>...................</p>
+                        <a href="https://github.com/Payalattri/Image-search-Engine"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    
+<!-- ---------------------------contact-------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>payalattri2004@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-8607840818</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Payal.</p>
+    </div>
+</div>
+
+
+
+<script> 
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+
+
+}
+</script>
+
+<script>
+
+    var sidemenu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyaWzohicYUNSS51cVrOz3P-3hrgbyb7gWbBZRxiOAk6XF22o2z4mK8YCvnKAqkY8d9Pg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
